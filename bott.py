@@ -9,7 +9,7 @@ from pprint import pprint
 import datetime
 
 
-bot = TeleBot('5466589003:AAEPTv1v8RbG1qTj893MnFQmYid_Zhgv0fU') #Необходимый токен телеграма
+bot = TeleBot('') #Необходимый токен телеграма
 owmmm = OWM('beaa6a11f7555a5a2bca6267b8f83a08')
 info = {
     'start': f'Привет!Я буду делится с вами курсом валют с сайта Investing. А так же вы можете узнать погоду, которая берется с сайта openweather\n\n'
