@@ -6,7 +6,7 @@ from requests import get, request
 from bs4 import BeautifulSoup as bs
 from pyowm import OWM
 from pprint import pprint
-import datetime
+
 
 
 bot = TeleBot('') #Необходимый токен телеграма
