@@ -10,7 +10,7 @@ from pprint import pprint
 
 
 bot = TeleBot('') #Необходимый токен телеграма
-owmmm = OWM('beaa6a11f7555a5a2bca6267b8f83a08')
+owmmm = OWM('#yourAPI TOKEN')
 info = {
     'start': f'Привет!Я буду делится с вами курсом валют с сайта Investing. А так же вы можете узнать погоду, которая берется с сайта openweather\n\n'
              f'Отправьте /menu, чтобы попасть в меню. '
